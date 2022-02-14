@@ -1,0 +1,88 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.carousel-item {
+  background-size:cover;
+  background-position:center right;
+  
+}
+.images {height:700px;}
+.carousel-item.item1 {
+  background-image:url("../img/main1.jpg");
+  background-position:center center;
+}
+.carousel-item.item2 {
+  background-image:url("../img/main2.jpg");
+  background-position:center center;
+}
+.carousel-item.item3 {
+  background-image:url("../img/main3.jpg");
+  background-position:center center;
+}
+.carousel-item.item4 {
+  background-image:url("../img/main4.jpg");
+  background-position:center center;
+}
+.carousel-item.third {width:1250px;}
+.carousel-item.third img {
+  background-position:right center ;
+  border:1px solid #c4c0c0}
+.container {
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.title h2 {margin-bottom:20px;}
+.title img {margin:30px 0; width:1300px; left:0;}
+
+.course {
+  display:block;
+  box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom:20px;text-decoration:none;
+}
+
+.course:hover {text-decoration:none;}
+.course .course-img {
+  display:block;
+  border-radius:20px;
+}
+.course .info {
+  padding:10px;
+}
+.course .info .top {margin-bottom:20px;}
+.course .info .review {color:rgb(247, 82, 82)}
+.course .info img {float:right;cursor:pointer}
+.course .info h4 {
+  font-size:18px;
+  color:#4a4a4a;
+  margin-top:0;
+  margin-bottom:10px;
+}
+.course .info .lecturer {
+  font-size:13px;
+  color:#4a4a4a;
+}
+.course .info .lecturer img,
+.course .info .lecturer .name {
+  vertical-align: middle
+}
+
+footer > div {padding:4.5vw 0 3vw;border-top:1px solid #9b9d9e}
+footer h3 {color:#fff;margin-bottom:25px;font-size:18px;}
+footer a, footer p {color:#8b98a3}
+footer ul {padding-left:0;}
+footer li {margin-bottom:10px;}
+footer li:hover {color:#8b98a3; text-decoration:underline;}
+.sns {}
+.sns a {display:inline-block;background:#5d5d5f;
+width:32px; height:32px; color:#fff;line-height:32px; border-radius:50%;text-align:center;margin-right:5px;transition:0.2s}
+.sns a:hover {background:#939aac}
+
+@media (max-width:1040px){
+  .images {width:100vw;height:500px;}
+}
+@media (max-width:768px){
+  .images {height:400px;}
+}
+@media (max-width:500px){
+  .images {width:500px;height:300px;}
+}
